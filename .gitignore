@@ -1,0 +1,6 @@
+# librairies node 
+/vendor/
+#variavle d'environnement 
+.env
+#
+/database

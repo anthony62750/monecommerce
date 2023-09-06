@@ -9,6 +9,12 @@ require('./inc/haut.inc.php');
 echo '<br>';
 echo session_status(); -->
 <?php
+// echo getenv('NOM_VARIABLE');
+// echo '<br>';
+// echo $_ENV['NOM_VARIABLE'];
+// echo $_ENV['TEST'];
+?>
+<?php
 
 require('./inc/bas.inc.php');
 ?>
