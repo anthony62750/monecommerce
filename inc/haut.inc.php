@@ -19,8 +19,8 @@
             <?php
             if (internauteEstAdmin()) {
                     echo '<a href="' . RACINE_SITE . 'admin/gestion_membre.php">Gestion des membres</a>';
-                    echo '<a href="' . RACINE_SITE . 'admin/gestion_commande.php">Gestion des commandes</a>';
-                    echo '<a href="' . RACINE_SITE . 'admin/gestion_boutique.php">Gestion de la boutique</a>';
+                    echo '<a href="' . RACINE_SITE . 'admin/gestion-commande.php">Gestion des commandes</a>';
+                    echo '<a href="' . RACINE_SITE . 'admin/gestion-boutique.php">Gestion de la boutique</a>';
                 }
                 if (internauteEstConnecte()) {
                     echo '<a href="' . RACINE_SITE . 'profil.php>Voir votre profil</a>';
